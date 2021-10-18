@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/16 12:14:33.000.633,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/16 16:15:23.000.651,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/18 20:43:05.000.740,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/18 20:55:33.000.603,C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\TelaMenu.pas</Transaction>
+    <Transaction>2019/03/18 20:55:33.000.603,C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\TelaMenu.fmx</Transaction>
+    <Transaction>2019/03/18 20:55:37.000.181,C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/03/19 08:59:17.000.463,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/03/24 13:09:18.000.340,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/03/29 09:23:11.000.127,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019/04/08 09:35:54.000.639,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2019/04/08 09:40:22.000.514,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\ModelSupport_Project1\default.txaPackage</Transaction>
+    <Transaction>2019/04/08 14:23:44.000.390,=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

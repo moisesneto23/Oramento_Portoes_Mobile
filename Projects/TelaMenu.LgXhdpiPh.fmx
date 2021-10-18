@@ -1,0 +1,39 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  Fill.Color = claGhostwhite
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Button1: TButton
+      TintColor = claMistyrose
+    end
+  end
+  inherited ToolBar2: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar3: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar4: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar5: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar6: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar7: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar8: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar9: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+  inherited ToolBar10: TToolBar
+    Size.Width = 450.000000000000000000
+  end
+end

@@ -1,0 +1,26 @@
+inherited Form2_NmXhdpiPh: TForm2_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+  end
+  inherited Edit5: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+  inherited Edit6: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+  inherited Edit1: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+  inherited Edit2: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+  inherited Edit3: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+  inherited Edit4: TEdit
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+  end
+end

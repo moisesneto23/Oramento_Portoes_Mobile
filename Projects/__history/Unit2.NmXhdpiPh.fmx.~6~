@@ -1,0 +1,81 @@
+inherited Form2_NmXhdpiPh: TForm2_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  Fill.Kind = Bitmap
+  DesignerMasterStyle = 3
+  inherited FramedVertScrollBox2: TFramedVertScrollBox
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Viewport.Width = 400.000000000000000000
+    Viewport.Height = 615.000000000000000000
+    inherited FramedVertScrollBox1: TFramedVertScrollBox
+      Size.Width = 400.000000000000000000
+      Size.Height = 615.000000000000000000
+      Viewport.Width = 395.000000000000000000
+      Viewport.Height = 615.000000000000000000
+      inherited ToolBar1: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited NumberBox2: TNumberBox
+          Position.X = 318.000000000000000000
+        end
+        inherited tlabel1: TLabel
+          Position.X = 258.000000000000000000
+        end
+      end
+      inherited ToolBar2: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox1: TComboBox
+          Size.Width = 313.000000000000000000
+        end
+      end
+      inherited ToolBar3: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox2: TComboBox
+          Size.Width = 274.000000000000000000
+        end
+      end
+      inherited LA: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox3: TComboBox
+          Size.Width = 274.000000000000000000
+        end
+      end
+      inherited ToolBar4: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox4: TComboBox
+          Size.Width = 274.000000000000000000
+        end
+      end
+      inherited T: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox5: TComboBox
+          Size.Width = 274.000000000000000000
+        end
+      end
+      inherited ToolBar11: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar9: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar10: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar7: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar12: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar6: TToolBar
+        Size.Width = 395.000000000000000000
+      end
+      inherited ToolBar5: TToolBar
+        Size.Width = 395.000000000000000000
+        inherited ComboBox6: TComboBox
+          Size.Width = 395.000000000000000000
+        end
+      end
+    end
+  end
+end

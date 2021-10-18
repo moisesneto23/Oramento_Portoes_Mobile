@@ -1,0 +1,66 @@
+inherited Form2_NmXhdpiPh: TForm2_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  Fill.Kind = Bitmap
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited NumberBox1: TNumberBox
+      TextSettings.Font.StyleExt = {04040000000000000004000000}
+    end
+  end
+  inherited ToolBar3: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox2: TComboBox
+      Size.Width = 279.000000000000000000
+    end
+  end
+  inherited ToolBar4: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox4: TComboBox
+      Size.Width = 279.000000000000000000
+    end
+  end
+  inherited LA: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox3: TComboBox
+      Size.Width = 279.000000000000000000
+    end
+  end
+  inherited T: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox5: TComboBox
+      Size.Width = 279.000000000000000000
+    end
+  end
+  inherited ToolBar7: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+  inherited ToolBar5: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox6: TComboBox
+      Size.Width = 400.000000000000000000
+    end
+  end
+  inherited ToolBar2: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited ComboBox1: TComboBox
+      Size.Width = 318.000000000000000000
+    end
+  end
+  inherited ToolBar9: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+  inherited ToolBar10: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+  inherited ToolBar11: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+  inherited ToolBar12: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+  inherited ToolBar6: TToolBar
+    Size.Width = 400.000000000000000000
+  end
+end

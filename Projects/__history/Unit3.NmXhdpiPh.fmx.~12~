@@ -1,0 +1,105 @@
+inherited Form3_NmXhdpiPh: TForm3_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited FramedVertScrollBox2: TFramedVertScrollBox
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Viewport.Width = 395.000000000000000000
+    Viewport.Height = 615.000000000000000000
+    inherited ToolBar17: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited NumberBox2: TNumberBox
+        Position.X = 350.000000000000000000
+      end
+      inherited Label2: TLabel
+        Position.X = 292.000000000000000000
+      end
+    end
+    inherited ToolBar1: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar2: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited ComboBox3: TComboBox
+        Position.X = 295.000000000000000000
+      end
+      inherited Label4: TLabel
+        Position.X = 229.000000000000000000
+      end
+    end
+    inherited ToolBar3: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar4: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar5: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited ComboBox9: TComboBox
+        Position.X = 311.000000000000000000
+      end
+      inherited Label10: TLabel
+        Position.X = 243.000000000000000000
+      end
+    end
+    inherited ToolBar6: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited ComboBox10: TComboBox
+        Size.Width = 313.000000000000000000
+      end
+    end
+    inherited ToolBar8: TToolBar
+      Position.Y = 480.000000000000000000
+      Size.Width = 395.000000000000000000
+      TintColor = claAliceblue
+    end
+    inherited ToolBar9: TToolBar
+      Position.Y = 528.000000000000000000
+      Size.Width = 395.000000000000000000
+      inherited ComboBox12: TComboBox
+        Size.Width = 395.000000000000000000
+      end
+    end
+    inherited ToolBar16: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited NumberBox6: TNumberBox
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited ToolBar12: TToolBar
+      Position.Y = 672.000000000000000000
+      Size.Width = 395.000000000000000000
+      TintColor = claAliceblue
+      inherited NumberBox5: TNumberBox
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited ToolBar15: TToolBar
+      Position.Y = 720.000000000000000000
+      Size.Width = 395.000000000000000000
+      inherited NumberBox4: TNumberBox
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited ToolBar14: TToolBar
+      Size.Width = 395.000000000000000000
+      inherited NumberBox3: TNumberBox
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited ToolBar10: TToolBar
+      Position.Y = 576.000000000000000000
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar7: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar11: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+    inherited ToolBar13: TToolBar
+      Size.Width = 395.000000000000000000
+    end
+  end
+end

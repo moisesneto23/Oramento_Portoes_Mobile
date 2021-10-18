@@ -1,0 +1,277 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 480
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    HitTest = False
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = claWhitesmoke
+    object Label1: TLabel
+      Align = Left
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 81.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      Text = '  Largura'
+      TabOrder = 0
+    end
+    object NumberBox1: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 1
+      Cursor = crIBeam
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 81.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 72.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object Label2: TLabel
+      Align = Right
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 197.000000000000000000
+      Size.Width = 63.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      Text = 'Altura'
+      TabOrder = 2
+    end
+    object NumberBox2: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 3
+      Cursor = crIBeam
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 260.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object ToolBar2: TToolBar
+    Locked = True
+    Position.Y = 48.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label3: TLabel
+      Align = Left
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 81.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      Text = '  Material'
+      TabOrder = 0
+    end
+    object ComboBox1: TComboBox
+      Align = Client
+      Items.Strings = (
+        'Metalon20x20'
+        'Metalon25x25'
+        'Metalon30x30'
+        'Metalon40x40'
+        'Metalon50x30')
+      Size.Width = 279.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+  object ToolBar3: TToolBar
+    Position.Y = 96.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Label4: TLabel
+      Align = Center
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 178.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      Text = 'Forma de Pagamento'
+      TabOrder = 0
+    end
+  end
+  object ToolBar4: TToolBar
+    Position.Y = 144.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object ComboBox2: TComboBox
+      Align = Client
+      Items.Strings = (
+        'entrada com dinheiro + restante a vista'
+        'entrada com cartao para 30 dias + dinheiro na instala'#231#227'o'
+        'entrada com cheque para 30 dias + dinheiro na instala'#231#227'o'
+        'entrada 2 vezes no cartao + dinheiro na instala'#231#227'o'
+        'entrada 3 vezes no cartao + dinheiro na instala'#231#227'o'
+        'entrada 4 vezes no cartao + dinheiro na instala'#231#227'o'
+        'entrada 5 vezes no cartao + dinheiro na instala'#231#227'o'
+        'entrada 6 vezes no cartao + dinheiro na instala'#231#227'o'
+        '10 vezes no cart'#227'o em paripiranga'
+        'entrada com desconto especial')
+      Size.Width = 360.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object ToolBar5: TToolBar
+    Position.Y = 192.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Button1: TButton
+      Align = Center
+      Size.Width = 197.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Gerar Or'#231'amento'
+      OnClick = Button1Click
+    end
+  end
+  object ToolBar6: TToolBar
+    Position.Y = 240.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Label6: TLabel
+      Align = Left
+      Size.Width = 137.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = '  Pre'#231'o total'
+      TabOrder = 0
+    end
+    object NumberBox3: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 2
+      Cursor = crIBeam
+      Max = 20000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 260.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object ToolBar7: TToolBar
+    Position.Y = 288.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Label7: TLabel
+      Align = Left
+      Size.Width = 140.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = '  valor de entrada'
+      TabOrder = 0
+    end
+    object NumberBox4: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 2
+      Cursor = crIBeam
+      Max = 20000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 260.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object ToolBar8: TToolBar
+    Position.Y = 336.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object Label8: TLabel
+      Align = Left
+      Size.Width = 140.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = '  valor da parcela'
+      TabOrder = 0
+    end
+    object NumberBox5: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 2
+      Cursor = crIBeam
+      Max = 20000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 260.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object ToolBar9: TToolBar
+    Position.Y = 384.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    object Label9: TLabel
+      Align = Left
+      Size.Width = 137.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = '  Valor restante'
+      TabOrder = 0
+    end
+    object NumberBox6: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 2
+      Cursor = crIBeam
+      Max = 20000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 18.000000000000000000
+      Position.X = 260.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+end

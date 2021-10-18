@@ -1,0 +1,63 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.Phys.SQLite, FireDAC.Phys.SQLiteDef,
+  FireDAC.Stan.ExprFuncs, FireDAC.FMXUI.Wait, Data.DB, FireDAC.Comp.Client,
+  FMX.Controls.Presentation, FMX.StdCtrls, FireDAC.Stan.Param, FireDAC.DatS,
+  FireDAC.DApt.Intf, FireDAC.DApt, FMX.ListView.Types, FMX.ListView.Appearances,
+  FMX.ListView.Adapters.Base, FMX.ListView, FireDAC.Comp.DataSet;
+
+type
+  TForm1 = class(TForm)
+    ToolBar1: TToolBar;
+    FDConnection1anotacao: TFDConnection;
+    FDQueryCriaTabela: TFDQuery;
+    Button1: TButton;
+    Button2: TButton;
+    Label1: TLabel;
+    ListView1: TListView;
+    FDQueryAnotaçoes: TFDQuery;
+    FDQueryAnotaçoesdescricao: TWideMemoField;
+    FDQueryNovaAnotacao: TFDQuery;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var descricao2: string;
+begin
+  descricao2:= InputBox('digite sua Anotacao','','');
+  try
+     if (descricao2.Trim <> '') then
+     begin
+       FDQueryNovaAnotacao.ParamByName('descricao').AsString := descricao2;
+       FDQueryNovaAnotacao.ExecSQL();
+       FDQueryAnotaçoes.Close();
+       FDQueryAnotaçoes.Open();
+     end;
+
+  except
+     on e : exception do
+          begin
+            ShowMessage('ola mundo');
+          end;
+  end;
+end;
+
+end.

@@ -1,0 +1,71 @@
+unit Unit6;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.Edit, FMX.EditBox, FMX.NumberBox, FMX.StdCtrls, FMX.Controls.Presentation,
+  FMX.ListBox;
+
+type
+  TPortao2Bandas = class(TForm)
+    FramedVertScrollBox1: TFramedVertScrollBox;
+    ToolBar1: TToolBar;
+    Label1: TLabel;
+    NumberBox1: TNumberBox;
+    NumberBox2: TNumberBox;
+    Altura: TLabel;
+    ToolBar2: TToolBar;
+    ComboBox1: TComboBox;
+    Label2: TLabel;
+    Label3: TLabel;
+    ComboBox2: TComboBox;
+    ToolBar3: TToolBar;
+    Label4: TLabel;
+    ComboBox3: TComboBox;
+    ToolBar4: TToolBar;
+    Label5: TLabel;
+    Label6: TLabel;
+    ComboBox4: TComboBox;
+    ComboBox5: TComboBox;
+    ToolBar5: TToolBar;
+    Label7: TLabel;
+    ComboBox6: TComboBox;
+    ToolBar6: TToolBar;
+    Label8: TLabel;
+    ComboBox7: TComboBox;
+    Label9: TLabel;
+    ComboBox8: TComboBox;
+    ToolBar7: TToolBar;
+    Label10: TLabel;
+    ToolBar8: TToolBar;
+    ComboBox9: TComboBox;
+    ToolBar9: TToolBar;
+    Buton: TButton;
+    ToolBar10: TToolBar;
+    Label11: TLabel;
+    NumberBox3: TNumberBox;
+    ToolBar11: TToolBar;
+    Label12: TLabel;
+    NumberBox4: TNumberBox;
+    ToolBar12: TToolBar;
+    Label13: TLabel;
+    NumberBox5: TNumberBox;
+    ToolBar13: TToolBar;
+    Label14: TLabel;
+    NumberBox6: TNumberBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Portao2Bandas: TPortao2Bandas;
+
+implementation
+
+{$R *.fmx}
+
+end.

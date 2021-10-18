@@ -1,0 +1,102 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 378
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 378.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Align = Right
+      Position.X = 298.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'addtoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'deletetoolbutton'
+      TabOrder = 1
+      Text = 'Excluir'
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 218.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Anota'#231#245'es'
+      TabOrder = 2
+    end
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 378.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object FDConnection1anotacao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\moikn\OneDrive\Documents\Embarcadero\Studio\Pr' +
+        'ojects\anotacoes.s3db'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
+    Connected = True
+    Left = 144
+    Top = 112
+  end
+  object FDQueryCriaTabela: TFDQuery
+    Connection = FDConnection1anotacao
+    SQL.Strings = (
+      'create table if not exists Anotacoes ( descricao TEXT NOT NULL)')
+    Left = 136
+    Top = 168
+  end
+  object FDQueryAnotaçoes: TFDQuery
+    Active = True
+    Connection = FDConnection1anotacao
+    SQL.Strings = (
+      'select descricao from Anotacoes')
+    Left = 136
+    Top = 224
+    object FDQueryAnotaçoesdescricao: TWideMemoField
+      FieldName = 'descricao'
+      Origin = 'descricao'
+      Required = True
+      BlobType = ftWideMemo
+    end
+  end
+  object FDQueryNovaAnotacao: TFDQuery
+    Connection = FDConnection1anotacao
+    SQL.Strings = (
+      'insert into Anotacoes(descricao) value (:descreicao)')
+    Left = 128
+    Top = 280
+    ParamData = <
+      item
+        Name = 'DESCREICAO'
+        DataType = ftString
+        ParamType = ptInput
+      end>
+  end
+end

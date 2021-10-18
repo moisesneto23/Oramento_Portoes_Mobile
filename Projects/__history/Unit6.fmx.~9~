@@ -1,0 +1,453 @@
+object Portao2Bandas: TPortao2Bandas
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 665
+  ClientWidth = 453
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object FramedVertScrollBox1: TFramedVertScrollBox
+    Align = Client
+    Size.Width = 453.000000000000000000
+    Size.Height = 665.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 453.000000000000000000
+    Viewport.Height = 665.000000000000000000
+    object ToolBar1: TToolBar
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      TintColor = claAliceblue
+      object Label1: TLabel
+        Align = Left
+        Size.Width = 73.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Largura'
+        TabOrder = 0
+      end
+      object NumberBox1: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 1
+        Cursor = crIBeam
+        ValueType = Float
+        Position.X = 73.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 64.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object NumberBox2: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 2
+        Cursor = crIBeam
+        ValueType = Float
+        Position.X = 356.000000000000000000
+        Position.Y = 8.000000000000000000
+      end
+      object Altura: TLabel
+        Align = Right
+        Position.X = 286.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Altura'
+        TabOrder = 3
+      end
+    end
+    object ToolBar2: TToolBar
+      Position.Y = 48.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ComboBox1: TComboBox
+        Align = Right
+        Items.Strings = (
+          'n'#227'o contem'
+          'contem')
+        Position.X = 343.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Label2: TLabel
+        Align = Left
+        Size.Width = 74.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Modelo'
+        TabOrder = 2
+      end
+      object Label3: TLabel
+        Align = Right
+        Position.X = 212.000000000000000000
+        Size.Width = 131.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Porta Integrada'
+        TabOrder = 1
+      end
+      object ComboBox2: TComboBox
+        Align = Left
+        Items.Strings = (
+          '1'
+          '2'
+          '3'
+          '4'
+          '5'
+          '6'
+          '7'
+          '8'
+          '9'
+          '10'
+          '11'
+          '12'
+          '13'
+          '14'
+          '15')
+        Position.X = 74.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 71.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+      end
+    end
+    object ToolBar3: TToolBar
+      Position.Y = 96.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      TintColor = claAliceblue
+      object Label4: TLabel
+        Align = Left
+        Size.Width = 89.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Abertura'
+        TabOrder = 2
+      end
+      object ComboBox3: TComboBox
+        Align = Left
+        Items.Strings = (
+          'para fora'
+          'para dentro'
+          'Para fora e para dentro')
+        Position.X = 89.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 210.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+      end
+    end
+    object ToolBar4: TToolBar
+      Position.Y = 144.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Label5: TLabel
+        Align = Left
+        Size.Width = 89.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Pintura'
+        TabOrder = 2
+      end
+      object Label6: TLabel
+        Align = Right
+        Position.X = 244.000000000000000000
+        Size.Width = 99.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Fechadura'
+        TabOrder = 1
+      end
+      object ComboBox4: TComboBox
+        Align = Right
+        Items.Strings = (
+          'n'#227'o contem'
+          'contem')
+        Position.X = 343.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+      end
+      object ComboBox5: TComboBox
+        Align = Left
+        Items.Strings = (
+          'n'#227'o contem'
+          'contem')
+        Position.X = 89.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+      end
+    end
+    object ToolBar5: TToolBar
+      Position.Y = 192.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      TintColor = claAliceblue
+      object Label7: TLabel
+        Align = Left
+        Size.Width = 89.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Puxador'
+        TabOrder = 1
+      end
+      object ComboBox6: TComboBox
+        Align = Left
+        Items.Strings = (
+          'n'#227'o contem'
+          'inox'
+          'de ferro')
+        Position.X = 89.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+    object ToolBar6: TToolBar
+      Position.Y = 240.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object Label8: TLabel
+        Align = Left
+        Size.Width = 105.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Metalon do Quadrado'
+        TabOrder = 2
+      end
+      object ComboBox7: TComboBox
+        Align = Left
+        Items.Strings = (
+          '50x50'
+          '40x40'
+          '50x30 chapa gro'#231'a'
+          '50x30 '
+          '30x30')
+        Position.X = 105.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 125.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+      end
+      object Label9: TLabel
+        Align = Right
+        Position.X = 253.000000000000000000
+        Size.Width = 75.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Metalon Interno'
+        TabOrder = 1
+      end
+      object ComboBox8: TComboBox
+        Align = Right
+        Items.Strings = (
+          '50x50'
+          '40x40'
+          '50x30 chapa gro'#231'a'
+          '50x30'
+          '30x30'
+          '30x20'
+          '25x25'
+          '20x20')
+        Position.X = 328.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 125.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+      end
+    end
+    object ToolBar7: TToolBar
+      Position.Y = 288.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      TintColor = claAliceblue
+      object Label10: TLabel
+        Align = Center
+        Size.Width = 176.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Forma de Pagamento'
+        TabOrder = 0
+      end
+    end
+    object ToolBar8: TToolBar
+      Position.Y = 336.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object ComboBox9: TComboBox
+        Align = Client
+        Items.Strings = (
+          'entrada com dinheiro + restante a vista'
+          'entrada com cartao para 30 dias + dinheiro na instala'#231#227'o'
+          'entrada com cheque para 30 dias + dinheiro na instala'#231#227'o'
+          'entrada 2 vezes no cartao + dinheiro na instala'#231#227'o'
+          'entrada 3 vezes no cartao + dinheiro na instala'#231#227'o'
+          'entrada 4 vezes no cartao + dinheiro na instala'#231#227'o'
+          'entrada 5 vezes no cartao + dinheiro na instala'#231#227'o'
+          'entrada 6 vezes no cartao + dinheiro na instala'#231#227'o'
+          '10 vezes no cartao em paripiranga'
+          'entrada com desconto especial')
+        Size.Width = 453.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object ToolBar9: TToolBar
+      Position.Y = 384.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      TintColor = claAliceblue
+      object Buton: TButton
+        Align = Center
+        Size.Width = 178.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Gerar Or'#231'amento'
+        TintColor = claRed
+      end
+    end
+    object ToolBar10: TToolBar
+      Position.Y = 432.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      object Label11: TLabel
+        Align = Left
+        Size.Width = 105.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Pre'#231'o Total'
+        TabOrder = 1
+      end
+      object NumberBox3: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 2
+        Cursor = crIBeam
+        Max = 20000.000000000000000000
+        ValueType = Float
+        Position.X = 105.000000000000000000
+        Position.Y = 8.000000000000000000
+        Enabled = False
+      end
+    end
+    object ToolBar11: TToolBar
+      Position.Y = 480.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      TintColor = claAliceblue
+      object Label12: TLabel
+        Align = Left
+        Size.Width = 153.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Valor de Entrada'
+        TabOrder = 1
+      end
+      object NumberBox4: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 2
+        Cursor = crIBeam
+        Max = 20000.000000000000000000
+        ValueType = Float
+        Position.X = 153.000000000000000000
+        Position.Y = 8.000000000000000000
+        Enabled = False
+      end
+    end
+    object ToolBar12: TToolBar
+      Position.Y = 528.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object Label13: TLabel
+        Align = Left
+        Size.Width = 153.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Valor da Parcela'
+        TabOrder = 1
+      end
+      object NumberBox5: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 2
+        Cursor = crIBeam
+        Max = 20000.000000000000000000
+        ValueType = Float
+        Position.X = 153.000000000000000000
+        Position.Y = 8.000000000000000000
+        Enabled = False
+      end
+    end
+    object ToolBar13: TToolBar
+      Position.Y = 576.000000000000000000
+      Size.Width = 453.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      TintColor = claAliceblue
+      object Label14: TLabel
+        Align = Left
+        Size.Width = 153.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Valor Restante'
+        TabOrder = 1
+      end
+      object NumberBox6: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 2
+        Cursor = crIBeam
+        Max = 20000.000000000000000000
+        ValueType = Float
+        Position.X = 153.000000000000000000
+        Position.Y = 8.000000000000000000
+        Enabled = False
+      end
+    end
+  end
+end
